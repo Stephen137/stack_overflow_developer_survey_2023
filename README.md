@@ -1,6 +1,6 @@
 # Stack Overflow 2023 Developer Survey
 
-
+![stack_overflow](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/754931ab-21a8-4edd-8dd5-7366d410cb53)
 
 ## 0. Motivation
 
@@ -375,7 +375,8 @@ So as we can see our dataset has **89,184 rows**, representing the number of res
 
 Establishing the extent of missing data is crucial to any data analysis project, with survey data notorious for quality issues. Let's take a closer look at our data :
 
-![missing_data.jpg](be017404-ed97-4912-bf35-8dee65231619.jpg)
+
+![missing_data](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/acdf17f7-0f41-4a97-8546-8570a4ba862d)
 
 
 ```python
@@ -428,7 +429,8 @@ msno.bar(stack_overflow_2023)
 
 
     
-![png](output_17_1.png)
+![output_17_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/6c20268f-1cce-4cf1-8ab9-ddaa4c32064e)
+
     
 
 
@@ -752,9 +754,10 @@ pre_process_plot(stack_overflow_2023, "Employment", "Which of the following best
     87898 out of a total of 89184 surveyed responded to this question, which represents 98.56% .
 
 
+![output_40_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/e91e70e6-5549-434a-8fa4-b05f6006bcd8)
 
     
-![png](output_40_1.png)
+
     
 
 
@@ -770,8 +773,9 @@ pre_process_plot(stack_overflow_2023, "DevType", "Which of the following describ
 
 
     
-![png](output_42_1.png)
-    
+
+![output_42_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/47bc4e9a-d4c9-4419-be3a-6d5b7fa07925)
+
 
 
 ### 2.3 Working arrangements
@@ -785,8 +789,9 @@ pie_chart_plot('RemoteWork', 'Which best describes your current work situation?'
 
 
 
-    
-![png](output_44_1.png)
+![output_44_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/be490be8-d124-45a9-a82d-6650dae43a9e)
+
+
     
 
 
@@ -802,8 +807,9 @@ pre_process_plot(stack_overflow_2023, "Country", "Where do you live?", "Location
 
 
 
-    
-![png](output_46_1.png)
+![output_46_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/c1967c45-daf8-4895-ba4b-3892517c586e)
+
+
     
 
 
@@ -819,7 +825,8 @@ pie_chart_plot('Age', 'What is your age?')
 
 
     
-![png](output_48_1.png)
+![output_48_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/58334521-37ec-4a58-b191-16aab949a5b6)
+
     
 
 
@@ -835,7 +842,8 @@ pie_chart_plot('EdLevel', 'Which of the following best describes the highest lev
 
 
     
-![png](output_50_1.png)
+![output_50_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/596c31cb-7aaa-463a-868c-cf499d2a4bdd)
+
     
 
 
@@ -883,9 +891,9 @@ pre_process_plot(stack_overflow_2023, "LanguageHaveWorkedWith", "Which programmi
     87140 out of a total of 89184 surveyed responded to this question, which represents 97.71% .
 
 
+![prog_lang](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/b3bdee0e-3cf8-4f50-b4c8-9cf0ff9be753)
+ 
 
-    
-![png](output_57_1.png)
     
 
 
@@ -899,8 +907,9 @@ pre_process_plot(stack_overflow_2023, "LanguageWantToWorkWith", "Which programmi
 
 
 
-    
-![png](output_58_1.png)
+![lang_future](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/0df85e96-a1d4-4b5d-b481-7030000e3df0)
+  
+
     
 
 
@@ -918,8 +927,9 @@ pre_process_plot(stack_overflow_2023, "DatabaseHaveWorkedWith", "Which database 
 
 
 
-    
-![png](output_61_1.png)
+![database](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/066ebd98-8679-41cb-a084-bc90417ee3d1)
+
+
     
 
 
@@ -934,7 +944,8 @@ pre_process_plot(stack_overflow_2023, "DatabaseWantToWorkWith", "Which database 
 
 
     
-![png](output_62_1.png)
+![output_62_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/82d4204b-6b60-419a-9b4a-77abc524fc01)
+
     
 
 
@@ -950,8 +961,8 @@ pre_process_plot(stack_overflow_2023, "PlatformHaveWorkedWith", "Which cloud pla
 
 
 
-    
-![png](output_64_1.png)
+![cloud](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/ae93934d-e82f-49b9-b1b5-cb7ffc3a4fa6)
+
     
 
 
@@ -966,8 +977,9 @@ pre_process_plot(stack_overflow_2023, "PlatformWantToWorkWith", "Which cloud pla
 
 
     
-![png](output_65_1.png)
-    
+
+![output_65_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/145a64c5-eab7-47be-9b9a-dcb736dfcd1c)
+
 
 
 ### 3.4 Developer tools for compiling, building and testing
@@ -981,9 +993,10 @@ pre_process_plot(stack_overflow_2023, "ToolsTechHaveWorkedWith", "Which develope
     77884 out of a total of 89184 surveyed responded to this question, which represents 87.33% .
 
 
+![build_test_compile](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/af842568-d121-4977-9989-14954525e738)
 
     
-![png](output_67_1.png)
+
     
 
 
@@ -998,8 +1011,9 @@ pre_process_plot(stack_overflow_2023, "ToolsTechWantToWorkWith", "Which develope
 
 
     
-![png](output_68_1.png)
-    
+
+![output_68_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/2d47f06c-ff46-4745-9674-0fbce036e1ec)
+
 
 
 ### 3.5 Development environments 
@@ -1014,8 +1028,9 @@ pre_process_plot(stack_overflow_2023, "NEWCollabToolsHaveWorkedWith", "Which dev
 
 
 
-    
-![png](output_70_1.png)
+![development_env](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/4a1ff286-777e-4131-b98f-134a9565fae9)
+
+
     
 
 
@@ -1030,7 +1045,8 @@ pre_process_plot(stack_overflow_2023, "NEWCollabToolsWantToWorkWith", "Which dev
 
 
     
-![png](output_71_1.png)
+![output_71_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/3dab61d2-7d1b-41cc-abbd-5710b98591b9)
+
     
 
 
@@ -1047,7 +1063,8 @@ pre_process_plot(stack_overflow_2023, "OpSysProfessional use", "What is the prim
 
 
     
-![png](output_73_1.png)
+![operating_sys](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/74186b0c-82ac-4cf3-9eb4-ac46db32ad8b)
+
     
 
 
@@ -1076,7 +1093,8 @@ pre_process_plot(stack_overflow_2023, "LearnCode", "How do you learn to code?", 
 
 
     
-![png](output_77_1.png)
+![learn_code](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/005e86ba-7fb4-4091-b14f-cbb4fb09da18)
+
     
 
 
@@ -1093,7 +1111,8 @@ pre_process_plot(stack_overflow_2023, "LearnCodeOnline", "What online resources 
 
 
     
-![png](output_79_1.png)
+![online_resources](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/4955e504-714d-4797-80b8-07051a96e657)
+
     
 
 
@@ -1190,8 +1209,8 @@ plt.show();
 
 
 
-    
-![png](output_88_1.png)
+![salary_industry](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/2d4bcf94-ab44-4d7d-9dab-01daad3eb302)
+
     
 
 
@@ -1264,8 +1283,8 @@ plt.show();
 
 
 
-    
-![png](output_90_1.png)
+![salary_title](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/2d27b2da-d005-4289-9a8b-963883e3277a)
+
     
 
 
@@ -1314,7 +1333,8 @@ plt.show();
 
 
     
-![png](output_92_1.png)
+![output_92_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/e4c33d15-f93d-48aa-8691-0c5dce26cf37)
+
     
 
 
@@ -1340,8 +1360,8 @@ pre_process_plot(stack_overflow_2023, "AISearchHaveWorkedWith", "Which AI-powere
 
 
 
-    
-![png](output_97_1.png)
+![AI_search](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/4ed07226-a0de-4dfc-aaf2-2dff7d3a9b3b)
+
     
 
 
@@ -1354,9 +1374,9 @@ pre_process_plot(stack_overflow_2023, "AISearchWantToWorkWith", "Which AI-powere
     46150 out of a total of 89184 surveyed responded to this question, which represents 51.75% .
 
 
+![output_98_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/50836aff-2ed6-4ab2-ae5c-16520df89f2e)
 
-    
-![png](output_98_1.png)
+
     
 
 
@@ -1373,7 +1393,8 @@ pre_process_plot(stack_overflow_2023, "AIDevHaveWorkedWith", "Which AI-powered d
 
 
     
-![png](output_100_1.png)
+![output_100_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/59a0275a-a92a-452a-835d-11e43d5601c5)
+
     
 
 
@@ -1388,7 +1409,8 @@ pre_process_plot(stack_overflow_2023, "AIDevWantToWorkWith", "Which AI-powered d
 
 
     
-![png](output_101_1.png)
+![output_101_1](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/a75930bb-c427-40a8-ab3d-102350d50de9)
+
     
 
 
@@ -1404,7 +1426,8 @@ pie_chart_plot('AISelect', 'Do you currently use AI tools in your development pr
 
 
     
-![png](output_103_1.png)
+![useAI](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/431884a4-4052-43ef-8f13-5fcf3a3fc542)
+
     
 
 
@@ -1417,7 +1440,8 @@ category_plot('AISelect', 'Do you currently use AI tools in your development pro
 
 
     
-![png](output_105_0.png)
+![useAI_age](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/2fdb07b3-7be1-4af9-b7e9-b18005d2a494)
+
     
 
 
@@ -1431,9 +1455,9 @@ pie_chart_plot('AISent', 'How favorable is your stance on using AI tools as part
     61501 out of a total of 89184 surveyed responded to this question, which represents 68.96 %.
 
 
+![stance_AI](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/eeea720e-be29-4fbc-83bb-55012b0e2e84)
 
     
-![png](output_107_1.png)
     
 
 
@@ -1445,8 +1469,9 @@ category_plot('AISent', 'How favorable is your stance on using AI tools as part 
 ```
 
 
-    
-![png](output_109_0.png)
+![favourable_age](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/8b698b20-a0eb-4121-9ca1-d51de9a1fbc0)
+
+
     
 
 
@@ -1462,7 +1487,8 @@ pie_chart_plot('AIBen', 'How much do you trust the accuracy of the output from A
 
 
     
-![png](output_111_1.png)
+![trust](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/929fd210-9b3d-4d00-8b46-3ae1478a9f20)
+
     
 
 
@@ -1472,8 +1498,9 @@ category_plot('AIBen', 'How much do you trust the accuracy of the output from AI
 ```
 
 
-    
-![png](output_112_0.png)
+![trust_age](https://github.com/Stephen137/stack_overflow_developer_survey_2023/assets/97410145/7f4cd5b3-fe41-4bcc-8722-5fa10856b926)
+
+
     
 
 
@@ -1524,8 +1551,6 @@ category_plot('AIBen', 'How much do you trust the accuracy of the output from AI
 ## 8. Hurdles, caveats, takeaways
 
 ### 8.1 Hurdles
-
-![hurdles.jfif](e79cb8dd-95e9-48d9-b7a8-6e30d28d604f.jfif)
 
 The data was reasonably clean, however : 
 
