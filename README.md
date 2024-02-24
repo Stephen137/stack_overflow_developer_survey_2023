@@ -1,7 +1,6 @@
 # Stack Overflow 2023 Developer Survey
 
 
-
 ## 0. Motivation
 
 As an experienced business professional pivoting into data science, my aim is to analyse the [Stack Overflow 2023 Developer Survey](https://www.kaggle.com/datasets/stackoverflow/stack-overflow-2023-developers-survey) results to obtain answers to the following questions :
@@ -1521,7 +1520,7 @@ category_plot('AIBen', 'How much do you trust the accuracy of the output from AI
 
 > While there was an overwhelming favorable stance on using AI tools, confidence in the **accuracy** of output is currently lukewarm. Only **2.8%** of respondents ***highly trust*** the accuracy of the output from AI tools, whilst just under **50%** ***somewhat trust*** it.  Just under **25%** expressed some form of ***mistrust***. This is pretty much in line with what I was expecting based on my own view. AI is here to stay and given the plausible asuumption that its performance is likely to improve over time, confidence is also likely to increase.
 
-## 8. Hurdles, caveats, takeaways
+## 8. Hurdles, caveats, blog post
 
 ### 8.1 Hurdles
 
@@ -1539,8 +1538,8 @@ I wrote three custom functions to overcome these difficulties, which considerabl
 
 As highlighted in Section 1, the dataset contains a lot of missing data. Given the nature of the dataset which was derived from an isolated survey, for the purposes of my analysis no data was dropped and no imputation was carried out. 
 
-### 8.3 Takeaways
+### 8.3 Blog post
 
-Thanks for taking the time to read this blog, my first on Medium. Hopefully you learned something new. 
+For a summary of my findings please check out my [blog post](https://medium.com/@stephen137/confessions-of-a-software-developer-stack-overflow-2023-survey-unzipped-56ed9b6fe581) on Medium. 
 
-I'd be particulary interested in hearing from users of Rust and Go! From the survey it seems that these languages are gaining in popularity. Is Python getting "RUSTy" and is it time for JavaScript to "Go" ? I am always happy to connect with fellow data enthusiasts. See you in my next article!
+
